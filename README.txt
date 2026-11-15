@@ -24,3 +24,7 @@ CATATAN:
 - Pastikan alamat "Banjarsari, Purwodi" dikonfirmasi ejaannya.
 - Kebijakan privasi harus disesuaikan dengan layanan aktual yang dipakai (hosting, analytics, cookies, iklan, formulir).
 - Google Fonts memerlukan koneksi internet; fallback font tetap tersedia.
+
+
+PEMBARUAN ILUSTRASI KATEGORI (15 November 2026)
+Enam file PNG kategori sudah ditempatkan di folder assets dan ditampilkan sebagai thumbnail pada halaman artikel.html. Pastikan folder assets diunggah bersama seluruh file HTML dan style.css. Jangan memindahkan file PNG keluar dari folder assets.
