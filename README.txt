@@ -1,30 +1,28 @@
-PAKWK.ONLINE — WEBSITE PACKAGE
-================================
-Isi:
-- index.html: Home
-- about.html: About Us
-- artikel.html: daftar artikel, pencarian dan filter kategori
-- artikel-perdana.html: artikel pembuka lengkap
-- sambat.html: Sambat & Cangkrukan
-- contact.html: kontak dan formulir mailto
-- privasi.html: Kebijakan Privasi & Integritas Informasi
-- style.css: desain responsif, warna dan layout
-- script.js: navigasi mobile, filter artikel, formulir email
-- assets/warung-cangkrukan.png: ilustrasi hero asli
+PAKWK.ONLINE — PAKET WEBSITE 21 NOVEMBER 2026
 
-CARA PREVIEW:
+CARA PAKAI:
 1. Ekstrak ZIP.
-2. Buka index.html di browser, atau jalankan local server.
-3. Untuk hosting, unggah seluruh isi folder (bukan folder ZIP-nya) ke document root hosting/domain.
+2. Buka index.html untuk pratinjau.
+3. Unggah semua file/folder ke root repository GitHub Pages, termasuk folder assets.
+4. Pertahankan CNAME pakwk.online pada repository. Jangan hapus konfigurasi DNS yang sudah berfungsi.
 
-CATATAN:
-- Ini paket website statis HTML/CSS/JS; belum terhubung ke CMS/database.
-- Form kontak membuka aplikasi email pengunjung (mailto), tidak menyimpan pesan di server.
-- Artikel bertanda "Segera hadir" adalah placeholder ide artikel, bukan konten terbit.
-- Pastikan alamat "Banjarsari, Purwodi" dikonfirmasi ejaannya.
-- Kebijakan privasi harus disesuaikan dengan layanan aktual yang dipakai (hosting, analytics, cookies, iklan, formulir).
-- Google Fonts memerlukan koneksi internet; fallback font tetap tersedia.
+YANG SUDAH BERJALAN TANPA SERVER:
+- Navigasi responsif, pencarian/filter artikel dan topik pemantik.
+- Form usulan diskusi dan kirim artikel membuka aplikasi email pengunjung.
+- Simpan/muat draf artikel di localStorage browser yang sama.
+- Halaman artikel lengkap, rubrik hobi, pedoman komunitas.
 
+BELUM AKTIF (MEMBUTUHKAN BACKEND, MIS. SUPABASE):
+- Akun/login pengunjung, penyimpanan posting dan komentar publik.
+- Moderasi/admin approve-reject secara online dan notifikasi.
+- Upload foto, anti-spam, audit log, dan akses berbasis peran.
+- Form email bukan pengiriman otomatis; pengunjung harus mengirim email.
 
-PEMBARUAN ILUSTRASI KATEGORI (15 November 2026)
-Enam file PNG kategori sudah ditempatkan di folder assets dan ditampilkan sebagai thumbnail pada halaman artikel.html. Pastikan folder assets diunggah bersama seluruh file HTML dan style.css. Jangan memindahkan file PNG keluar dari folder assets.
+ILUSTRASI:
+- Delapan gambar asli pengguna disalin tanpa perubahan.
+- kenangan-bapak.png adalah ilustrasi artistik tambahan, bukan foto keluarga.
+- Artikel bertanda cerita utama ditulis dari percakapan dan perlu ditinjau penulis sebelum publikasi.
+
+KEAMANAN/PRIVASI:
+- localStorage menyimpan draf hanya di browser pengguna; hindari menulis data sensitif.
+- Tinjau privasi sebelum backend, cookie, atau analytics diaktifkan.
